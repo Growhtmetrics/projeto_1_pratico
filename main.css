@@ -1,0 +1,193 @@
+/*Global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: poppins;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 16px 0px;
+    color: #22053d;
+    line-height: 100%;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px 0px;
+    line-height: 150%;
+}
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-block{
+    flex-basis: 45%;
+}
+.right-block {
+    flex-basis: 45%;
+}
+
+/*Header*/
+header{
+    padding: 24px 0px;
+    background-color: #d1f75e;
+}
+
+header img{
+    width: 150px;
+    height: auto;
+}
+header li{
+    display: inline;
+    margin-left: 16px;
+}
+header li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+section {
+    padding: 36px 0px;
+}
+
+#hero{
+    padding: 24px 0px;
+    background-color: #d1f75e;
+}
+
+.left-block .emprego-garantido img{
+    width: 30px;
+    margin-right: 16px;
+}
+
+.emprego-garantido {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 8px 16px 8px 16px;
+    color: black;
+    font-weight: bold;
+    margin: 24px 0px;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 20px;
+    color: #823696;
+}
+
+.hero-list{
+    list-style-type: none;
+}
+
+.custom-list{
+    padding: 16px 0px;
+}
+
+.list-image,
+.list-major-text {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.list-image{
+    width: 24px;
+    height: auto;
+}
+
+.list-major-text{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.list-minor-text{
+    padding-left: 36px;
+    padding-top: 0px;
+}
+
+.right-block{
+    display: flex;
+}
+
+.form-block {
+    background-color: #4f0173;
+    padding: 48px 16px;
+    color: white;
+    border-radius: 16px;
+    width: 100%;
+    align-items: center;
+}
+
+.form-block .text-calendar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-block .text-calendar p{
+    display: inline;
+    font-size: 12px;
+}
+
+.form-block p{
+    margin-bottom: 16px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    align-items: inherit;
+    height: 48px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding: 16px;
+    color: black;
+}
+
+form button{
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #326ebd;
+    color: white;
+    font-size: 24px;
+    border: none;
+}
+
+#resumo{
+    background-color: #22053d;
+}
+
+#resumo .container{
+    display: block;
+    padding: 48px 0px;
+    color: white;
+}
+
+.grid-4{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+}
